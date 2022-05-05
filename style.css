@@ -1,3 +1,6 @@
+html{ 
+    overflow-x: hidden; 
+}
 #logo_img{
     display: block;
     margin: -8px;
@@ -27,7 +30,6 @@ body{
     margin-right: 10%;
     
 }
-/* position: fixed; */
 p{
     text-indent:20px;    
 }
