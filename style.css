@@ -1,0 +1,45 @@
+#logo_img{
+    display: block;
+    margin: -8px;
+    
+}
+#footer_img{
+    
+    display: block;
+    margin: -8px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+#text_meeting{
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(108, 106, 106);
+    font-weight: lighter;
+}
+#text_heading{
+    font-style: italic;
+    color: rgb(108, 106, 106);
+    
+}
+#main_page{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+/* position: fixed; */
+p{
+    text-indent:20px;    
+}
+
+#form{
+    margin-left: 18%;
+    margin-right: 10%;
+}
+#footer_text{
+    text-align: center;
+    margin: -155px;
+    color: rgb(229, 224, 230);
+    font-size: 18px;
+}
+
