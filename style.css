@@ -2,21 +2,26 @@ html{
     overflow-x: hidden; 
 }
 #logo_img{
-    display: block;
-    margin: -8px;    
-    
+    display: inline-block;
+    margin: -8px; 
+    /* height: 135px; */
 }
-.header{
-    background-image: url(img/astro_pic_4site2_narrow.jpg);
+
+/* .header{
+    background-image: url(img/astro_pic.jpg);
     background-repeat: repeat-x;
     text-align: center;
-    line-height: 126px;
-}
+    line-height: 30%;
+    height: 30%;
+} */
+
+
 .footer{
     margin-top: 300px;
     margin-left: -15px;
+    
     background-image: url(img/footer3.jpg);
-    background-repeat: repeat-x;
+    /* background-repeat: repeat-x; */
     text-align: center;
     line-height: 176px;    
 }
@@ -58,4 +63,40 @@ body{
     color: rgb(255, 255, 255);
     font-size: 18px;
 }
+/* до этого числа max-width */
+@media screen and (max-width:1095px) {
+    #form_block{
+        height: 700px;
+        width: 500px;  
+    }
+    /* #logo_img{
+        width: 1095px;   
+    } */
+    
+    #form{
+        width: 866px;
+        height: 800px;
+    }
 
+
+}
+/* @media screen and (max-width:638px) {
+    #form_block{
+        height: 1200px;
+        width: 500px;  
+    }
+    #footer_text{
+        font-size: smaller;
+    }
+    
+    #form{
+        width: 866px;
+        height: 800px;
+    }
+    /* #text_heading{
+        font-size: 60%;
+    }
+    #text_meeting{
+        font-size: 60%;
+    } 
+} */
