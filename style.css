@@ -1,9 +1,12 @@
 html{ 
     overflow-x: hidden; 
 }
-
+/* body{
+    background-color: rgba(217, 178, 39, 0.543);
+} */
 body{
-    background-color: #d2af1476;
+    background-color: #16152c;
+    /* background-color: #100f22e2; */
 }
 /* header */
 #header_img{
@@ -15,11 +18,11 @@ body{
     margin-left: 10%;
     margin-right: 10%; 
     justify-content:center;
-    background-color: #f8f8b5b3;
+    background-color: #a5a2a2;
 }
 #text_heading{
     font-style: italic;
-    color: rgb(61, 61, 61);   
+    color: rgb(8, 8, 8);   
     margin: 0%;
     padding: 5%;
     text-align: center;
@@ -29,7 +32,7 @@ body{
     text-indent:20px;  
     font-style: normal;
     font-size: 24px;
-    color: rgb(50, 50, 50);
+    color: rgb(21, 20, 20);
     font-weight: lighter;
     text-align: justify;
     padding-left: 5%;
@@ -37,9 +40,10 @@ body{
 }
 #form{
     margin-top: 5%;
-    margin-bottom: 27%;
+    margin-bottom: 19%;
     text-align: center;
     margin-bottom: 0%;
+    height: 1060px;
     
 }
 #form_block{
@@ -47,22 +51,23 @@ body{
 }
 /* footer */
 #footer_img{
-    margin: -8px;
+    margin: -19px;
 }
-#footer_text{
-    text-align: center;    
-    margin: -155px;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
+#pre_footer_text{
+    text-align: center;
+    margin: 5%;
+    color: rgb(255, 244, 244);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /*media-queries */
-
+/* до этого числа max-width */
 @media screen and (max-width:960px) {
     #main_page{
         margin: -1%;
     }
-    #footer_text{
+    #pre_footer_text{
         font-size: 99%;
     }
 }
@@ -71,3 +76,4 @@ body{
         margin: -1%;
     }
 }
+
