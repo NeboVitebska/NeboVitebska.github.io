@@ -59,7 +59,7 @@ body{
 }
 
 /*media-queries */
-
+/* до этого числа max-width */
 @media screen and (max-width:960px) {
     #main_page{
         margin: -1%;
@@ -73,3 +73,7 @@ body{
         margin: -1%;
     }
 }
+/* @media (min-width: 30em), screen
+and (orientation: landscape){
+
+ } */
