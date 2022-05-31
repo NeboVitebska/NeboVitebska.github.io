@@ -1,61 +1,55 @@
 html{ 
     overflow-x: hidden; 
 }
-#logo_img{
-    display: inline-block;
-    margin: -8px; 
-    /* height: 135px; */
-}
-
-/* .header{
-    background-image: url(img/astro_pic.jpg);
-    background-repeat: repeat-x;
-    text-align: center;
-    line-height: 30%;
-    height: 30%;
+/* body{
+    background-color: rgba(217, 178, 39, 0.543);
 } */
-
-
-.footer{
-    margin-top: 300px;
-    margin-left: -15px;
-    
-    background-image: url(img/footer3.jpg);
-    /* background-repeat: repeat-x; */
-    text-align: center;
-    line-height: 176px;    
-}
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(210, 175, 20, 0.463);
 }
-#text_meeting{
-    text-indent:20px;  
-    font-style: normal;
-    font-size: 24px;
-    color: rgb(108, 106, 106);
-    font-weight: lighter;
-    text-align: justify;
+/* header */
+#header_img{
+    display: inline-block;
+    margin: -8px;     
+}
+/* main info */
+#main_page{
+    margin-left: 10%;
+    margin-right: 10%; 
+    justify-content:center;
+    background-color: rgba(248, 248, 181, 0.7);
 }
 #text_heading{
     font-style: italic;
-    color: rgb(108, 106, 106);   
+    color: rgb(61, 61, 61);   
+    margin: 0%;
+    padding: 5%;
+    text-align: center;
+}
+#text_meeting{
+    margin-top: -3%;
+    text-indent:20px;  
+    font-style: normal;
+    font-size: 24px;
+    color: rgb(50, 50, 50);
+    font-weight: lighter;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#form{
+    margin-top: 5%;
+    margin-bottom: 27%;
+    text-align: center;
+    margin-bottom: 0%;
     
 }
-#main_page{
-    margin-left: 10%;
-    margin-right: 10%;
-    
-}
-
 #form_block{
     margin: 30px 0;
 }
-#form{
-    margin-top: 100px;
-    text-align: center;
-    width: 1066px;
-    height: 1000px;
-    background-color: rgb(215, 217, 231);
+/* footer */
+#footer_img{
+    margin: -8px;
 }
 #footer_text{
     text-align: center;    
@@ -63,40 +57,19 @@ body{
     color: rgb(255, 255, 255);
     font-size: 18px;
 }
-/* до этого числа max-width */
-@media screen and (max-width:1095px) {
-    #form_block{
-        height: 700px;
-        width: 500px;  
-    }
-    /* #logo_img{
-        width: 1095px;   
-    } */
-    
-    #form{
-        width: 866px;
-        height: 800px;
-    }
 
+/*media-queries */
 
-}
-/* @media screen and (max-width:638px) {
-    #form_block{
-        height: 1200px;
-        width: 500px;  
+@media screen and (max-width:960px) {
+    #main_page{
+        margin: -1%;
     }
     #footer_text{
-        font-size: smaller;
+        font-size: 99%;
     }
-    
-    #form{
-        width: 866px;
-        height: 800px;
+}
+@media screen and (max-width:1080px) and (orientation: landscape) {
+    #main_page{
+        margin: -1%;
     }
-    /* #text_heading{
-        font-size: 60%;
-    }
-    #text_meeting{
-        font-size: 60%;
-    } 
-} */
+}
