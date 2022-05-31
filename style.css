@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-color: rgba(210, 175, 20, 0.463);
+    background-color: #d2af1476;
 }
 /* header */
 #header_img{
@@ -15,7 +15,7 @@ body{
     margin-left: 10%;
     margin-right: 10%; 
     justify-content:center;
-    background-color: rgba(248, 248, 181, 0.7);
+    background-color: #f8f8b5b3;
 }
 #text_heading{
     font-style: italic;
