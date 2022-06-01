@@ -5,7 +5,9 @@ html{
     background-color: rgba(217, 178, 39, 0.543);
 } */
 body{
-    background-color: #16152c;
+    /* background-color: #f5dec1; */
+    background-color: #ca9a709e;
+    
     /* background-color: #100f22e2; */
 }
 /* header */
@@ -18,11 +20,12 @@ body{
     margin-left: 10%;
     margin-right: 10%; 
     justify-content:center;
-    background-color: #a5a2a2;
+    background-color: #f5dec1;
+    
 }
 #text_heading{
     font-style: italic;
-    color: rgb(8, 8, 8);   
+    color: rgb(44, 43, 43);   
     margin: 0%;
     padding: 5%;
     text-align: center;
@@ -32,7 +35,7 @@ body{
     text-indent:20px;  
     font-style: normal;
     font-size: 24px;
-    color: rgb(21, 20, 20);
+    color: rgb(56, 56, 56);
     font-weight: lighter;
     text-align: justify;
     padding-left: 5%;
@@ -56,8 +59,9 @@ body{
 #pre_footer_text{
     text-align: center;
     margin: 5%;
-    color: rgb(255, 244, 244);
+    color: rgb(28, 24, 24);
     font-size: large;
+    font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
 }
 
