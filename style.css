@@ -5,10 +5,7 @@ html{
     background-color: rgba(217, 178, 39, 0.543);
 } */
 body{
-    /* background-color: #f5dec1; */
-    background-color: #ca9a709e;
-    
-    /* background-color: #100f22e2; */
+    background-color: #e7da4fc9;
 }
 /* header */
 #header_img{
@@ -20,7 +17,7 @@ body{
     margin-left: 10%;
     margin-right: 10%; 
     justify-content:center;
-    background-color: #f5dec1;
+    background-color: #f1ee87;
     
 }
 #text_heading{
@@ -66,7 +63,7 @@ body{
 }
 
 /*media-queries */
-/* до этого числа max-width */
+
 @media screen and (max-width:960px) {
     #main_page{
         margin: -1%;
